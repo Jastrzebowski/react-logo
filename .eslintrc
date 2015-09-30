@@ -23,7 +23,7 @@ rules:
     # 2 space indent
     #
     # http://eslint.org/docs/rules/indent.html
-    indent: [2, 2, indentSwitchCase: true]
+    indent: [2, 2]
 
     # Bracer style
     #
