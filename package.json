@@ -6,7 +6,7 @@
   "scripts": {
     "webpack":  "webpack-dev-server --hot --inline",
     "build":    "webpack --config webpack.build.config.js --progress --profile --colors",
-    "start":    "pm2 start server.json5",
+    "start":    "node src/index.js",
     "packages": "npm list --depth=0"
   },
   "keywords": ["ReactJS", "Redux", "KOA", "Redux", "PM2", "Webpack"],
