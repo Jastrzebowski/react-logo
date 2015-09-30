@@ -42,7 +42,6 @@ function *logoAction() {
 
   // const Logo = require(path.join(__dirname, 'components', 'logo'))
 
-  // this.body = 'asda'
   this.body = ReactDOMServer.renderToString(<div>Hello World</div>)
 }
 
